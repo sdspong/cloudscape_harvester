@@ -1,0 +1,33 @@
+defaults: &defaults
+  instagram_client_id: "8e573d7c96d746af875e5bc47c70b86d"
+  instagram_client_secret: "8dd1580821a04717a26b6b0c2e09c972"
+  instagram_access_token: "255425141.8e573d7.fe18fb88963f4c108e82b8f60b25e2ed"
+  default_image_search_tag: "cloudporn"
+  # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
+  application_name: "Your base app page title"
+  division_name: "Division Name"
+  division_url: "http://example.com/division_url"
+  organization_name: "University name"
+  meta_description: "A short description to include in the meta description tag"
+  base_image_file_dir: "/path/to/directory/where/images/will/be/harvested"
+  donor_agreement_text: "The text for your donor agreement that will be submitted as a comment"
+  contact_email: "my_project@example.com"
+  feed_description: "Description of this feed"
+  # Uncomment to enable Google Analytics tracking
+  # google_analytics_tracker: "UA-XXXXXXXX-XX"
+
+development:
+  <<: *defaults
+  # Add or override config options here
+
+test:
+  <<: *defaults
+  # Add or override config options here
+
+staging:
+  <<: *defaults
+  # Add or override config options here
+
+production:
+  <<: *defaults
+  # Add or override config options here
