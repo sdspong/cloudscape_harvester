@@ -66,7 +66,7 @@ module DhsiLentil
     config.assets.version = '1.0'
 
 # get precompilation working on heroku:
-config.asset.initialize_on_precompile = true
+config.assets.initialize_on_precompile = true
 
 config.serve_static_assets = false
   
