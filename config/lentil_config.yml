@@ -6,7 +6,7 @@ defaults: &defaults
   # If populated, the next three fields will appear at the end of page titles as "application_name - division_name - organization_name"
   application_name: "Cloudscape Harvester"
   division_name: "Cloudscapes"
-  division_url: "http://example.com/division_url"
+  division_url: ""
   organization_name: "University of New Mexico"
   meta_description: "A short description to include in the meta description tag"
   base_image_file_dir: "/path/to/directory/where/images/will/be/harvested"
